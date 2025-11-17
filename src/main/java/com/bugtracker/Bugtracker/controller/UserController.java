@@ -35,7 +35,7 @@ public class UserController {
    
 
     @GetMapping("/login")
-    public String loginPage() {
+    public String showLoginPage() {
         return "login"; // login.jsp
     }
     @GetMapping("/user")
@@ -144,4 +144,5 @@ public class UserController {
         }
     }
     }
+
 
