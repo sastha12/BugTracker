@@ -48,7 +48,10 @@
     <groupId>org.apache.tomcat.embed</groupId>
     <artifactId>tomcat-embed-jasper</artifactId>
 </dependency>
-
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>jstl</artifactId>
+</dependency>
 <!-- JSTL -->
 <dependency>
     <groupId>jakarta.servlet.jsp.jstl</groupId>
